@@ -1,7 +1,7 @@
 # jigsaw
 canvas滑动验证码
 
-## [演示地址](https://github.com/caishuaijun/ImageSlider)
+## [演示地址](https://github.com/caishuaijun/ImageSlider/demo.html)
 
 ### 用法：
 1. 引入[jigsaw.min.js](https://raw.githubusercontent.com/yeild/jigsaw/master/dist/jigsaw.min.js)
