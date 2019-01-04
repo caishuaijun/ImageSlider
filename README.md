@@ -1,13 +1,13 @@
-# jigsaw
+# imgSlider
 canvas滑动验证码
 
 
 ### 用法：
-1. 引入[jigsaw.min.js](https://github.com/caishuaijun/ImageSlider/blob/master/dist/jigsaw.min.js)
+1. 引入[imgSlider.min.js](https://github.com/caishuaijun/ImageSlider/blob/master/dist/imgSlider.min.js)
 
 2.
 ```
-jigsaw.init({
+imgSlider.init({
   el: document.getElementById('container'),
   onSuccess: function () { ... },
   onFail: function () { ... },

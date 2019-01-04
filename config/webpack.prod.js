@@ -7,18 +7,17 @@ const baseConfig = require('./webpack.base')
 const version = require('../package.json').version
 
 module.exports = merge(baseConfig, {
-  output: {
-    filename: '[name].min.js',
-  },
-  plugins: [
-    new CleanWebpackPlugin(
-      ['dist'],
-      {
-        root: path.resolve(__dirname, '..'),
-        verbose: false
-      }
-    ),
-    new webpack.BannerPlugin('version: ' + version + '\ndocs: https://github.com/yeild/jigsaw\n')
-  ],
-  mode: 'production'
+    output: {
+        filename: '[name].min.js',
+    },
+    plugins: [
+        new CleanWebpackPlugin(
+            ['dist'], {
+                root: path.resolve(__dirname, '..'),
+                verbose: false
+            }
+        ),
+        new webpack.BannerPlugin('version: ' + version + '\ndocs: https://github.com/yeild/imgSlider\n')
+    ],
+    mode: 'production'
 })
